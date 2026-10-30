@@ -75,9 +75,10 @@ class AppLocalizations {
       case 'user-disabled':
         return t('authDisabled');
       case 'operation-not-allowed':
-        return t('authNotEnabled');
+      case 'configuration-not-found':
+        return '${t('authNotEnabled')} [$code]';
       default:
-        return t('errorGeneric');
+        return '${t('errorGeneric')} [$code]';
     }
   }
 }
