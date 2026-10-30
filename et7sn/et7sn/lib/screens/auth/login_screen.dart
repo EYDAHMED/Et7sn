@@ -50,8 +50,10 @@ class _LoginScreenState extends State<LoginScreen> {
       }
     } on FirebaseAuthException catch (e) {
       if (mounted) setState(() => _error = l.authError(e.code));
-    } catch (_) {
-      if (mounted) setState(() => _error = l.t('errorGeneric'));
+    } catch (e) {
+      if (mounted) {
+        setState(() => _error = '${l.t('errorGeneric')} [${e.runtimeType}]');
+      }
     } finally {
       if (mounted) setState(() => _busy = false);
     }
