@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1086775785895:android:8f0e3118f14980b3661e82",
+        "mobilesdk_app_id": "1:1086775785895:android:4430a22fcc69bc76661e82",
         "android_client_info": {
-          "package_name": "com.et7sn.app.et7sn"
+          "package_name": "com.et7sn.app.et7sn1"
         }
       },
       "oauth_client": [],
@@ -26,9 +26,9 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1086775785895:android:4430a22fcc69bc76661e82",
+        "mobilesdk_app_id": "1:1086775785895:android:e67be25b47042bdb661e82",
         "android_client_info": {
-          "package_name": "com.et7sn.app.et7sn1"
+          "package_name": "com.et7sn.et7sn"
         }
       },
       "oauth_client": [],
